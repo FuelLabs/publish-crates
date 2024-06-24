@@ -2,7 +2,7 @@
 
 # Publish Rust crates using GitHub Actions
 
-This is a fork of the https://github.com/katyo/publish-crates. In the past, some of the releases were broken, and for stability, we decided to create a fork to avoid unexpected changes/breaks.
+This is a fork of the https://github.com/katyo/publish-crates. In the past, some of the releases were broken, and for stability, we decided to create a fork to avoid unexpected changes/breaks. We will sync the original action periodically.
 
 The action is using [`cargo metadata`](https://doc.rust-lang.org/cargo/commands/cargo-metadata.html) with format version 
 `1` to collect the information about crates and workspace.
